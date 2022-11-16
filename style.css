@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: sans-serif;
+}
+.main-conteiner {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(252, 230, 237);
+  padding-left: 20px;
+}
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(210, 187, 51);
+  padding: 15px;
+}
+h2,
+h3 {
+  font-size: 26px;
+  padding: 10px;
+  border-bottom-style: dashed;
+  border-width: 1px;
+}
+h4 {
+  font-size: 20px;
+}
+ol {
+  padding-left: 40px;
+}
+li {
+  font-size: 18px;
+}
+.sub-conteiner {
+  display: grid;
+  grid-template-columns: 600px 320px;
+  gap: 30px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  padding-left: 10px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+article {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 20px;
+}
+.conteiner1,
+.conteiner2 {
+  background-color: white;
+}
+.conteiner1_2 {
+  display: grid;
+  grid-template-columns: 150px 450px;
+  column-gap: 10px;
+  padding-top: 10px;
+}
+.conteiner2_1 {
+  display: grid;
+  grid-template-columns: 100px 450px;
+  column-gap: 10px;
+  padding-top: 10px;
+}
+.conteiner3 {
+  background-color: beige;
+  padding: 20px;
+}
